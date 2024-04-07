@@ -39,7 +39,7 @@ This API will return a random user from the Users table
 This API can be used to check existence of a user
 
 ```http
-  POST /api/users/check-existence
+  GET /api/users/check-existence
 ```
 
 | Parameter | Type     | Description                |
@@ -51,7 +51,7 @@ This API can be used to check existence of a user
 This API can be used to get users above specified age
 
 ```http
-  POST /api/users/filter-by-age
+  GET /api/users/filter-by-age
 ```
 
 | Parameter | Type     | Description                |
